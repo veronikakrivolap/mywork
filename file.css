@@ -1,0 +1,53 @@
+header{
+    background-color: rgb(255, 197, 221);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+footer{
+    background-color: rgb(255, 147, 147);}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header a{
+    color: rgb(141, 5, 32);
+    text-decoration: none;
+    margin: 0 30px;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header button{
+    background-color: rgb(230, 228, 228);
+    color: rgb(100, 3, 40);
+    padding: 15px 40px;
+    border-radius: 10%;
+    border: none;
+    transition: 500ms;
+}
+
+header button:hover{
+    background-color: ghostwhite;
+transform: scale(1,1);
+}
+
+button a{
+    color: deeppink;
+}
+
+
+.hero{
+    min-height: 80vh;
+background-image: linear-gradient(to top, rgba(0, 0, 0, 0.363), rgba(0, 0, 0, 0.363)) , url(nArGPv.jpg);
+background-size: cover;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
