@@ -1,0 +1,1 @@
+_gfp_s_({"_cookies_":[{"_value_":"ID=f653e2719cc66a72-22f15edf8cc80049:T=1627381827:RT=1627381827:S=ALNI_Mbg3KUmzx0uk9G_9jr8rBuFwzuRig","_expires_":1661077827,"_path_":"/","_domain_":"papers.co"}]});
