@@ -1,5 +1,7 @@
+h1, h2{font-family: 'Montserrat', sans-serif;}
+figcaption{font-family: 'Montserrat', sans-serif;}
 header{
-    background-color: rgb(255, 197, 221);
+    background-color: rgb(203, 197, 255);
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -7,8 +9,8 @@ header{
 }
 
 footer{
-    background-color: rgb(255, 147, 147);}
-
+    background-color: rgb(255, 169, 216);}
+    
 *{
     padding: 0;
     margin: 0;
@@ -18,7 +20,7 @@ header a{
     color: rgb(141, 5, 32);
     text-decoration: none;
     margin: 0 30px;
-    font-size: 18px;
+    font-size: 25px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -29,6 +31,7 @@ header button{
     border-radius: 10%;
     border: none;
     transition: 500ms;
+    font-size: 18px;
 }
 
 header button:hover{
@@ -37,17 +40,90 @@ transform: scale(1,1);
 }
 
 button a{
-    color: deeppink;
+    color: rgb(202, 234, 255);
 }
 
 
 .hero{
     min-height: 80vh;
-background-image: linear-gradient(to top, rgba(0, 0, 0, 0.363), rgba(0, 0, 0, 0.363)) , url(nArGPv.jpg);
+background-image: linear-gradient(to top, rgba(253, 253, 253, 0.363), rgba(160, 160, 160, 0.363)) , url(nArGPv.jpg);
 background-size: cover;
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
 text-align: center;
+background-position: center;
 }
+.hero p{font-size: 20px;}
+.pets{
+    padding: 50px 20px;
+    background-color: rgb(222, 166, 255);
+
+}
+
+img{
+    max-width: 100%;
+}
+
+.pets-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+ figure{
+        width: 22%;
+        background-color: seashell;
+        padding: 20px 10px;
+        position: relative;
+    }
+figcaption{
+    position: absolute;
+    bottom: 20px;
+}
+   
+@media(max-width: 974px){
+    header{
+        display: block;
+        text-align: center;
+    }
+
+nav{
+    margin: 20px 0;
+}
+
+}
+
+@media(max-width: 760px){
+    .pets-wrapper{
+        flex-wrap: wrap;
+    }
+
+     
+    figure{
+        width: 40%;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media(max-width: 550px){
+
+    h1{
+        font-size: 30px;
+    }
+    .hero p{
+        font-size: 22px;
+    }
+
+    figure{
+        width: 70%;
+    }
+
+    .pets-wrapper{
+        justify-content: center;
+    }
+    figure{
+        padding-bottom: 70px;
+    }
+}
+
